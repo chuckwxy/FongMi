@@ -151,10 +151,10 @@ dependencies {
     leanbackImplementation 'androidx.leanback:leanback:1.2.0-alpha04'
     leanbackImplementation 'com.github.hedzr:android-file-chooser:v1.2.0-final'
     leanbackImplementation 'me.jessyan:autosize:1.2.1'
-    mobileImplementation(ext: 'aar', name: 'dlna-dmc', group: 'fongmi', version: 'release')
-    mobileImplementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
-    mobileImplementation 'com.google.android.flexbox:flexbox:3.0.0'
-    mobileImplementation('com.journeyapps:zxing-android-embedded:4.3.0') { transitive = false }
+    //mobileImplementation(ext: 'aar', name: 'dlna-dmc', group: 'fongmi', version: 'release')
+    //mobileImplementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    //mobileImplementation 'com.google.android.flexbox:flexbox:3.0.0'
+    //mobileImplementation('com.journeyapps:zxing-android-embedded:4.3.0') { transitive = false }
     annotationProcessor 'androidx.room:room-compiler:2.6.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
 }
