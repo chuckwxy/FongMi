@@ -1,12 +1,11 @@
 name: Build_W
 
 on:
-  release
   #  push:
   #    branches:
   #      - main
   #  pull_request:
-  # workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
