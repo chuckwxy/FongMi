@@ -57,7 +57,8 @@ public class SiteDialog implements SiteAdapter.OnClickListener{
     }
 
     private boolean list() {
-        return Setting.getSiteMode() == 0 || adapter.getItemCount() < 10;
+        //return Setting.getSiteMode() == 0 || adapter.getItemCount() < 10;
+        return adapter.getItemCount() < 10;
     }
 
     private int getCount() {
